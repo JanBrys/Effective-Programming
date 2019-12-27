@@ -215,18 +215,19 @@ bool b_positive_number(int number)
 void v_wrong_parameters_warning()
 {
 	cout << endl << "Wrong parameter/parameters. Function will skip its mechanics!" << endl;
-}
+}//void v_wrong_parameters_warning()
+
 void v_deleted_pointer_warning()
 {
 	cout << endl << "Pointer is deleted. Function will not make its mechanics!" << endl;
-}
+}//void v_deleted_pointer_warning()
 
 void v_alloc_2_dim_warning()
 {
 	cout << endl << "Wrong parameters or pointer is already used." << endl;
-}
+}//void v_alloc_2_dim_warning()
 
 void v_success()
 {
 	cout << endl << "Function made its job correctly!" << endl;
-}
+}//void v_alloc_2_dim_warning()
