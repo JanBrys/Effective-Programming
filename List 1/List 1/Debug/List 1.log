@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\github\Study\C++\Effective-Programming\List 1\List 1\Source.cpp(165): warning C4715: 'b_dealloc_table_2_dim': not all control paths return a value
+  List 1.vcxproj -> D:\github\Study\C++\Effective-Programming\List 1\Debug\List 1.exe
