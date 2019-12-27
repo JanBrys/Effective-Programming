@@ -5,9 +5,7 @@
 class CTable
 {
 public:
-	string s_name;
-	int* pi_table = NULL;
-	int i_length = 0;
+
 
 	CTable();
 	CTable(string sName, int iTableLen);
@@ -30,6 +28,9 @@ public:
 
 	void vShowTable();
 
-
+private:
+	string s_name;
+	int* pi_table = NULL;
+	int i_length = 0;
 };
 

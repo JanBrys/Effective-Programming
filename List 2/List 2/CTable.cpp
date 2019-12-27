@@ -95,7 +95,7 @@ void CTable::vAlreadyUsedMemory()
 int CTable::iGetSize()
 {
 	return i_length;
-}
+}//int CTable::iGetSize()
 
 void CTable::vFillPartOfTable(int iStartIndex,int iLastIndex)
 {
@@ -103,7 +103,7 @@ void CTable::vFillPartOfTable(int iStartIndex,int iLastIndex)
 	{
 		pi_table[ii] = ii;
 	}
-}
+}//void CTable::vFillPartOfTable(int iStartIndex,int iLastIndex)
 
 void CTable::vFillDefault()
 {
@@ -111,7 +111,7 @@ void CTable::vFillDefault()
 	{
 		pi_table[ii] = 0;
 	}
-}
+}//void CTable::vFillDefault()
 
 void CTable::vShowTable()
 {
@@ -120,4 +120,5 @@ void CTable::vShowTable()
 		cout << pi_table[ii] << " ";
 	}
 	cout << endl;
-}
+}//void CTable::vShowTable()
+

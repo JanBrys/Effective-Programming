@@ -1,7 +1,7 @@
 #include "CTable.h"
 
-void v_mod_tab(CTable* pcTab, int iNewSize);
 void v_mod_tab(CTable cTab, int iNewSize);
+void v_mod_tab(CTable* pcTab, int iNewSize);
 
 int main()
 {
@@ -65,7 +65,7 @@ int main()
 void v_mod_tab(CTable cTab, int iNewSize)
 {
 	cTab.bSetNewSize(iNewSize);
-	cout << endl << "Table inside void v_mod_tab(CTable cTab) after changed 1st element: " << endl;
+	cout << "Table inside void v_mod_tab(CTable cTab) after changed 1st element: " << endl;
 	cTab.vShowTable();
 }//void v_mod_tab(CTable cTab)
 void v_mod_tab(CTable* pcTab, int iNewSize)
