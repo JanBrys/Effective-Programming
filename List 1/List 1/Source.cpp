@@ -230,4 +230,4 @@ void v_alloc_2_dim_warning()
 void v_success()
 {
 	cout << endl << "Function made its job correctly!" << endl;
-}//void v_alloc_2_dim_warning()
+}//void v_success()
