@@ -11,3 +11,8 @@ List 2:
   - Constructors
   - Destructors
   - Giving a copy/orginal object to procedure
+
+List 3:
+  - Based on List 2
+  - Overloading operator+
+  - Doing stuff with destructor and playing around some other stuff
